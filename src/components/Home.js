@@ -5,7 +5,34 @@ import Section from './Section'
 export default function Home() {
     return (
         <Container>
-            <Section />
+            <Section 
+                title=""
+                description=""
+                backgroundImage=""
+                leftBtnText=""
+                rightBtnText=""
+            />
+             <Section 
+                title=""
+                description=""
+                backgroundImage=""
+                leftBtnText=""
+                rightBtnText=""
+            />f
+            <Section 
+                title=""
+                description=""
+                backgroundImage=""
+                leftBtnText=""
+                rightBtnText=""
+            />
+            <Section 
+                title=""
+                description=""
+                backgroundImage=""
+                leftBtnText=""
+                rightBtnText=""
+            />
         </Container>
     )
 }
