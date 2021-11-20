@@ -1,0 +1,14 @@
+* {
+    /* sets how the total width and height of an element is calculated */
+    /* tells the browser to account for any border and padding in the values you specify 
+    for an element's width and height */
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    color: #393c41;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
