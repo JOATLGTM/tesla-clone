@@ -5,17 +5,19 @@ export default function Section({ title, description, backgroundImg, leftBtnText
     return (
         <Wrap bgImage={backgroundImg}>
             <ItemText>
-                <h1>{title}</h1>
-                <p>{description}</p>
+                <h1>{ title }</h1>
+                <p>{ description }</p>
             </ItemText>
             <Buttons>
                 <ButtonGroup>
                     <LeftButton>
-                        {leftBtnText}
+                        { leftBtnText }
                     </LeftButton>
-                    <RightButton>
-                        {rightBtnText}
-                    </RightButton>
+                    { rightBtnText && 
+                        <RightButton>
+                            { rightBtnText }
+                        </RightButton>
+                    }
                 </ButtonGroup>
                 <DownArrow src="/images/down-arrow.svg" />
             </Buttons>
@@ -29,7 +31,7 @@ const Wrap = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: ${props => `url("/images/${props.bgImage}")`}
+    background-image: ${props => `url("/images/${props.bgImage}")`};
     display: flex;
     flex-direction: column;
     justify-content: space-between;
