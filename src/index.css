@@ -19,6 +19,16 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none !important;
+    margin: none !important;
+    color: black !important;
+    margin: 5px !important;
+    font-weight: 800 !important;
+    letter-spacing: .05em;
+}
+
+
 @keyframes animateDown {
     0%, 20%, 50%, 80%, 100% {
         Transform: translateY(0);
