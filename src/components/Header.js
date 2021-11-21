@@ -15,7 +15,7 @@ export default function Header() {
            <Container>
                <Logo>
                     <a>
-                        <img src="/images/logo.svg" alt="" href="#"/>
+                        <img src="/images/logo.svg" alt="logo" href="#"/>
                     </a>
                </Logo>
                 <Menu>
