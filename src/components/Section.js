@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Fade from 'react-reveal/Fade'
 
 export default function Section({ title, description, backgroundImg, leftBtnText, rightBtnText}) {
+    console.log(backgroundImg)
     return (
         <Wrap bgImage={backgroundImg}>
             <Fade bottom>
