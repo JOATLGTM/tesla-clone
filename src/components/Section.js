@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Fade from 'react-reveal/Fade'
 
 export default function Section({ title, description, backgroundImg, leftBtnText, rightBtnText}) {
     return (

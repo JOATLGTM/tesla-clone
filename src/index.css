@@ -32,3 +32,7 @@ body {
         Transform: translateY(3px);
     }
 }
+
+a {
+    text-decoration: none;
+}
