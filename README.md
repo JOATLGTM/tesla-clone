@@ -1,3 +1,3 @@
 # Getting Started with Create React App
 
-Live preview: [Tesla Clone]()
+Live preview: https://joatlgtm.github.io/tesla-clone/
